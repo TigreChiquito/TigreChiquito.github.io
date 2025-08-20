@@ -15,11 +15,12 @@
 body {
     opacity: 1.0;
     background-size: cover;
-    background-color: beige;
+    background-color: rgb(31, 31, 28);
 }
 
 p {
     font-size: 24px;
+    text-align: center;
     color:red;
     font-family: 'Times New Roman';
 }
