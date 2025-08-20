@@ -1,0 +1,35 @@
+#identified_1 {
+    background-color: skyblue;
+}
+
+#identified_2 {
+    background-color: limegreen;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+body {
+    opacity: 1.0;
+    background-size: cover;
+    background-color: beige;
+}
+
+p {
+    font-size: 24px;
+    color:red;
+    font-family: 'Times New Roman';
+}
+
+ol {
+    font-size: 24px;
+    color:green;
+}
+
+ul {
+    font-size: 24px;
+    color:blue;
+}
