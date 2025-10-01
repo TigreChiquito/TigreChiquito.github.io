@@ -1,5 +1,5 @@
-function Header() {
-    return <h1>Hello World</h1>;
+function Header({ title }) {
+    return <h1>{title ? title : 'Default title'}</h1>;  
 }
 
 //function Image(){
@@ -13,8 +13,9 @@ function Header() {
 function HomePage() {
     return (
         <div>
-            <Header />
-            <p>hola</p>
+            <Header title="React" />
+            <Header title="A new title" />
+            <Header title="Hello World"/>
         </div>
     );
 }
